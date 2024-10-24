@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Clinics - Pet Care Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="find_sitters.html">Find Sitters</a></li>
+                <li><a href="find_clinics.html">Find Clinics</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Find Clinics Section -->
+    <main class="find-section">
+        <h1>Find Certified Pet Clinics</h1>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" id="searchClinic" placeholder="Search clinics by location or name...">
+            <button class="btn-primary" onclick="searchClinic()">Search</button>
+        </div>
+
+        <!-- Clinics List -->
+        <section id="clinicsList" class="clinics-grid">
+            <div class="clinic-card">
+                <img src="images/clinic1.png" alt="Clinic 1">
+                <h3>Happy Paws Clinic</h3>
+                <p>Location: Chennai</p>
+                <p>Rating: ★★★★★</p>
+            </div>
+            <div class="clinic-card">
+                <img src="images/clinic2.png" alt="Clinic 2">
+                <h3>Paw Health Clinic</h3>
+                <p>Location: Katpadi</p>
+                <p>Rating: ★★★★☆</p>
+            </div>
+            <div class="clinic-card">
+                <img src="images/clinic3.png" alt="Clinic 3">
+                <h3>Vet Pet Clinic</h3>
+                <p>Location: Chennai</p>
+                <p>Rating: ★★★★★</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+  

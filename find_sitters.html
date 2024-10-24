@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Pet Sitters - Pet Care Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="find_sitters.html">Find Sitters</a></li>
+                <li><a href="find_clinics.html">Find Clinics</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Find Sitters Section -->
+    <main class="find-section">
+        <h1>Find Trusted Pet Sitters</h1>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" id="searchSitter" placeholder="Search sitters by location or name...">
+            <button class="btn-primary" onclick="searchSitter()">Search</button>
+        </div>
+
+        <!-- Sitters List -->
+        <section id="sittersList" class="sitters-grid">
+            <div class="sitter-card">
+                <img src="images/sitter2.png" alt="Sitter 1">
+                <h3>Jessica</h3>
+                <p>Location:Chennai</p>
+                <p>Rating: ★★★★★</p>
+            </div>
+            <div class="sitter-card">
+                <img src="images/sitter1.png" alt="Sitter 2">
+                <h3>Johnson</h3>
+                <p>Location: Katpadi</p>
+                <p>Rating: ★★★★☆</p>
+            </div>
+            <div class="sitter-card">
+                <img src="images/sitter3.png" alt="Sitter 3">
+                <h3>Emily</h3>
+                <p>Location:Chennai</p>
+                <p>Rating: ★★★★★</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Pet Care Network</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
